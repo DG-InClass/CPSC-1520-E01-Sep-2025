@@ -555,7 +555,7 @@ I've been teaching Computer Programming at NAIT for over **25 years**, and I hav
 
 While I've only been **teaching JavaScript for 8+ years** (off and on), I do have experience with the language and the wider JavaScript ecosystem going back to the late 1990s 😲. At the start of this year (2025), I started up [**my own website on JavaScript**](https://dgilleland.github.io/CPSC-1520/) where I can more rapidly generate resources for my students.
 
-> 🚀 **Tip:** I have an *Instructor Workbook* where I post all my code and things like my [**Agendas** for each class]().
+> 🚀 **Tip:** I have an *Instructor Workbook* where I post all my code and things like my [**Agendas** for each class](https://github.com/DG-InClass/CPSC-1520-E01-Sep-2025/blob/main/Agenda.md#-welcome-to-cpsc-1520---revitalized-).
 
 ### Transitioning Instructors
 
@@ -569,7 +569,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 ### Getting Back On Track
 
 1. 🕛 There are a few things I want to help everyone get set up on their computers so that we can all be on the same page. It all begins with your [*System Setup*](https://dgilleland.github.io/CPSC-1520/tutorials/0010/). Odds are that you have most of this stuff in place, but we'll double-check just to make sure!
-1. 🏡 Self-Study/Review Tutorials
+2. 📝 The next thing we'll get you set up with is your **Student Workbook**. I'll give you that link in class and walk you through how and where to put it on your computer.
+3. 🏡 Self-Study/Review Tutorials
 
    I have a number of short tutorials that you can try out on my website. They each take about 30 minutes to complete, and they are chock full of important tidbits that you may not know about JavaScript.
    
@@ -580,19 +581,12 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 
 
-- What you found challenging?
-- What learning strategies/resources did you lean on?
-- Discovering where you were dropped off
-  - [ ] `import`/`export`
-  - [ ] Flow-control
-  - [ ] Looping statements?
-    - [ ] `while`
-    - [ ] `do-while`
-    - [ ] `for`
-    - [ ] `for..in`
-    - [ ] `for..of`
-  - [ ] Arrays?
+### Oct 29
+
+### Topical Backlog....
+
 - Quick Recaps
+  - [ ] **Just JavaScript:** Playing with `node --watch ....`
   - [ ] `a-backlog.js`, where we review
     - Simple Object Literals
     - Date Object in JavaScript
@@ -603,9 +597,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - Default Parameters
     - Closures
     - Function Hoisting
-
-### Rebooting Topics
-
 - **Today**
   - Note the [**Array Function docs**](./src/011/ReadMe.md#built-in-functionsjs)
   - **011**
@@ -626,6 +617,22 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       ```
 
       ✨ Remember to commit/push the starter kit before you make edits
+
+- **Homework**
+  - Contact me some time on MS Teams over this coming week, and let me know where you are at. Specifically:
+    - What you found challenging?
+    - What learning strategies/resources did you lean on?
+    - Discovering where you were dropped off
+      - [ ] `import`/`export`
+      - [ ] Flow-control
+      - [ ] Looping statements?
+        - [ ] `while`
+        - [ ] `do-while`
+        - [ ] `for`
+        - [ ] `for..in`
+        - [ ] `for..of`
+      - [ ] Arrays?
+
 
 <!-- 
 - **Homework:**
@@ -651,7 +658,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     ✨ Remember to commit/push the starter kit you just grabbed
 
 
-### Oct 29
 
 
 ----
