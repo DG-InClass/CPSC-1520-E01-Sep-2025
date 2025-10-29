@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#oct-27). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#-welcome-to-cpsc-1520---revitalized-). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -14,7 +14,7 @@ Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wor
 
 Here are quick links to the quiz readings on Brightspace.
 
-- *TBD*
+- *Coming Soon....*
 
 <!-- - [Readings for Quiz/Assessment 1](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998885/View)
 - [Readings for Quiz/Assessment 2](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998928/View)
@@ -547,15 +547,38 @@ Here are quick links to the quiz readings on Brightspace.
 - **Today**
   - [About C# Lambdas and Delegates](https://dmit-2018.github.io/topics/linq/lambda.html) -->
 
-
-## Transitioning Instructors
+## 🎉 Welcome to CPSC-1520 - Revitalized! 🎉
 
 My name is *Dan Gilleland*, and I'm your new instructor for the remainder of the course.
 
-I know that this is a change for you. Transitioning from one instructor to another can stir up a lot of feelings and put you on alert.
+I've been teaching Computer Programming at NAIT for over **25 years**, and I have experience with a wide variety of programming languages.
 
-If you're feeling a little - or a lot - of 
-Having your instructor change at just over the half-way point of the course is 
+While I've only been **teaching JavaScript for 8+ years** (off and on), I do have experience with the language and the wider JavaScript ecosystem going back to the late 1990s 😲. At the start of this year (2025), I started up [**my own website on JavaScript**](https://dgilleland.github.io/CPSC-1520/) where I can more rapidly generate resources for my students.
+
+> 🚀 **Tip:** I have an *Instructor Workbook* where I post all my code and things like my [**Agendas** for each class]().
+
+### Transitioning Instructors
+
+I want to acknowledge that having a change in instructors part way through the term will no doubt feel disruptive for you. But I'm here to help you through that transition as well as to teach you JavaScript. You can always direct-message me via **Microsoft Teams** if you have any questions or concerns. I'll help you in any way I can!
+
+> 🚀 **Tip:** Try contacting me right now, just to say "Hi"! That way, I can add your name in my *priority queue* for when you have questions.
+
+If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you to know that's normal. In fact, I happen to know of a good resource that can help you through any sort of changes you face in life - good or bad. That little tool is something called [**The Change Cycle**](https://changecycle.com/change-cycle).
+
+
+### Getting Back On Track
+
+1. 🕛 There are a few things I want to help everyone get set up on their computers so that we can all be on the same page. It all begins with your [*System Setup*](https://dgilleland.github.io/CPSC-1520/tutorials/0010/). Odds are that you have most of this stuff in place, but we'll double-check just to make sure!
+1. 🏡 Self-Study/Review Tutorials
+
+   I have a number of short tutorials that you can try out on my website. They each take about 30 minutes to complete, and they are chock full of important tidbits that you may not know about JavaScript.
+   
+   If you feel that a quick review would help, check these out.
+
+   1. [Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0011/) - I encourage students to learn `git` from the command line, and this little tutorial is a great start. You'll also get a little bit of exposure to *Markdown* (which I'm sure you'll love more and more as you try it out 💖)!
+   2. [JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0001/) is a set of tutorials focused just on JavaScript (no HTML or CSS). They range from 20 to 40 minutes to complete each, but if you just want to skim the instructions instead of writing things out, they are quicker to run through.
+
+
 
 - What you found challenging?
 - What learning strategies/resources did you lean on?
