@@ -569,16 +569,26 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 ### Getting Back On Track
 
 1. 🕛 There are a few things I want to help everyone get set up on their computers so that we can all be on the same page. It all begins with your [*System Setup*](https://dgilleland.github.io/CPSC-1520/tutorials/0010/). Odds are that you have most of this stuff in place, but we'll double-check just to make sure!
-2. 📝 The next thing we'll get you set up with is your **Student Workbook**. I'll give you that link in class and walk you through how and where to put it on your computer.
-3. 🏡 Self-Study/Review Tutorials
+1. 📝 The next thing we'll get you set up with is your **Student Workbook**. I'll give you that link in class and walk you through how and where to put it on your computer.
+1. 🏡 Self-Study/Review Tutorials
 
    I have a number of short tutorials that you can try out on my website. They each take about 30 minutes to complete, and they are chock full of important tidbits that you may not know about JavaScript.
    
    If you feel that a quick review would help, check these out.
 
    1. [Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0011/) - I encourage students to learn `git` from the command line, and this little tutorial is a great start. You'll also get a little bit of exposure to *Markdown* (which I'm sure you'll love more and more as you try it out 💖)!
-   2. [JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0001/) is a set of tutorials focused just on JavaScript (no HTML or CSS). They range from 20 to 40 minutes to complete each, but if you just want to skim the instructions instead of writing things out, they are quicker to run through.
+   1. [JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0001/) is a set of tutorials focused just on JavaScript (no HTML or CSS). They range from 20 to 40 minutes to complete each, but if you just want to skim the instructions instead of writing things out, they are quicker to run through.
 
+1. Discovering where you were dropped off
+    - [ ] JavaScript modules (`import`/`export`)
+    - [ ] Flow-control
+    - [ ] Looping statements?
+      - [ ] `while`
+      - [ ] `do-while`
+      - [ ] `for`
+      - [ ] `for..in`
+      - [ ] `for..of`
+    - [ ] Arrays?
 
 
 ### Oct 29
@@ -622,16 +632,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - Contact me some time on MS Teams over this coming week, and let me know where you are at. Specifically:
     - What you found challenging?
     - What learning strategies/resources did you lean on?
-    - Discovering where you were dropped off
-      - [ ] `import`/`export`
-      - [ ] Flow-control
-      - [ ] Looping statements?
-        - [ ] `while`
-        - [ ] `do-while`
-        - [ ] `for`
-        - [ ] `for..in`
-        - [ ] `for..of`
-      - [ ] Arrays?
+    - Where you would like some extra focus?
 
 
 <!-- 
