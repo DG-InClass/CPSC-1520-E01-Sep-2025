@@ -14,14 +14,13 @@ Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wor
 
 Here are quick links to the quiz readings on Brightspace.
 
-- *Coming Soon....*
-
 <!-- - [Readings for Quiz/Assessment 1](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998885/View)
 - [Readings for Quiz/Assessment 2](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998928/View)
 - [Readings for Quiz/Assessment 3](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998978/View)
-- [Readings for Quiz/Assessment 4](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999028/View)
-- [Readings for Quiz/Assessment 5](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999030/View)
-- [Readings for Quiz/Assessment 6](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999078/View) -->
+-->
+- [Readings for Quiz/Assessment 4](https://lms.nait.ca/d2l/le/content/97648/viewContent/4139957/View)
+- [Readings for Quiz/Assessment 5](https://lms.nait.ca/d2l/le/content/97648/viewContent/4139959/View)
+- [Readings for Quiz/Assessment 6](https://lms.nait.ca/d2l/le/content/97648/viewContent/4140007/View) 
 
 
 > ## Starter Kits
@@ -592,6 +591,30 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 
 ### Oct 29
+
+### Nov 3
+
+- **Today**
+  - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
+    - 📝 Please note the cut-off dates in the [Calendar](./Calendar.md)
+  - Part A) [Continuing Review](./src/001/ReadMe.md)
+    - [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
+    - [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
+  - Part B) [JavaScript with HTML]
+    - Time for a Starter Kit:
+  - Part C) [Data, data, data]
+    - Yet another Starter Kit:
+- **Homework**
+  - About ***Assignment 2***
+  - About [***Lab 5***](#nov-5) (available at 11:30 AM | open 36 hours)
+
+### Nov 5
+
+- **Today**
+  - Start with topics:
+  - Lab 5 (available at 11:30 AM | open 36 hours)
+    - [Retro Lab]
+    - [Your Actual Lab]
 
 ### Topical Backlog....
 
