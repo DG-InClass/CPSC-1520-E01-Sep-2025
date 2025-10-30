@@ -3,7 +3,7 @@
 This draft planning calendar shows the dates for all **evaluation items**. For a schedule of what's being covered in class, see the [Agenda](./Agenda.md).
 
 > - **Assignments** are due at **11:59pm** on their due dates
-> - **Labs** are on the last In-Class period of the week and are made available for 24 hours (from **6:00am** of the lab day to **6:00am** the following day)
+> - **Labs** are on the last In-Class period of the week and are made available for 24 or 36 hours (see posted time frames in Brightspace)
 > - **Quizzes** are available immediately and must be completed before the cutoff date at **11:59pm** on the calendar date posted below.
 
 | Week #  |     Dates      | Quiz Cutoff    | In-Class Lab&dagger; | Assignments               |
