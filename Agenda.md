@@ -689,10 +689,10 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 ### Nov 03
 
-- **In-Class Lab 5**
-
 
 ### Nov 05
+
+- **In-Class Lab 5**
 
 
 ----
@@ -722,8 +722,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 ### Nov 24
 
-- **In-Class Lab 7**
-
 
 ### Nov 26
 
@@ -732,6 +730,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 
 ### Dec 01
+
+- **In-Class Lab 7**
 
 
 ### Dec 03
