@@ -4,7 +4,9 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#-welcome-to-cpsc-1520---revitalized-). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-03). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+>
+> See the [Welcome](#-welcome-to-cpsc-1520---revitalized-)
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
