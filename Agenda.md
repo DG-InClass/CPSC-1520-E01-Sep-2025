@@ -590,33 +590,10 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - [ ] Arrays?
 
 
-### Oct 29
-
-### Nov 3
-
-- **Today**
-  - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
-    - 📝 Please note the cut-off dates in the [Calendar](./Calendar.md)
-  - Part A) [Continuing Review](./src/001/ReadMe.md)
-    - [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
-    - [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
-  - Part B) [JavaScript with HTML]
-    - Time for a Starter Kit:
-  - Part C) [Data, data, data]
-    - Yet another Starter Kit:
-- **Homework**
-  - About ***Assignment 2***
-  - About [***Lab 5***](#nov-5) (available at 11:30 AM | open 36 hours)
-
-### Nov 5
-
-- **Today**
-  - Start with topics:
-  - Lab 5 (available at 11:30 AM | open 36 hours)
-    - [Retro Lab]
-    - [Your Actual Lab]
 
 ### Topical Backlog....
+
+> *Just some notes for my (Dan's) personal reminder. Jump to the [Reboot Timeline (Nov-Dec)](#nov-dec-2025-schedule) for agenda information.*
 
 - Quick Recaps
   - [ ] **Just JavaScript:** Playing with `node --watch ....`
@@ -682,17 +659,88 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     ✨ Remember to commit/push the starter kit you just grabbed
 
 
+![Separator](./docs/images/Video-Separator.jpg)
 
+----
+## Nov-Dec 2025 Schedule
+
+### Oct 29
+
+- **Today**
+  - 🕖 Part A) Intro + Reboot
+    - [x] [Introductory Comments/Notes](#-welcome-to-cpsc-1520---revitalized-)
+    - [x] [System Setup](#getting-back-on-track)
+  - 🕗 Part B)
+    - [x] Student Workbook Setup
+      - *If you missed the class, you can find the links to the student workbook in the MS Teams and the [Brightspace announcements](https://lms.nait.ca/d2l/home/97648).*
+    - [x] Terminal commands (`git` and others)
+    - [x] A touch of *Markdown*
+  - 🕘 Part C)
+    - [x] JavaScript in the terminal - [A Recap](./src/001/a-javascript-recap.js)
+- **Homework**
 
 ----
 
 
 ### Nov 03
 
+> 🙏 ***Disclaimer:** As I teach, there may be bits and pieces of JavaScript that I miss along the way. Please **ask questions** if there are things appearing in labs/assignments that seem entirely new to you.*
+
+- **Today**
+  - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
+    - 📝 Please note the cut-off dates in the [Calendar](./Calendar.md)
+  - **Start Here:** ![](./docs/images/checkered-flags-45x32.png) (10 min)
+    - We're going to quickly review Event Listeners using [**this tutorial**](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
+      - It includes how to [setup a Node project from scratch](./src/003/ReadMe.md)
+    - Time for a Starter Kit:
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/003 ./src/003
+      ```
+
+  - 🕖 Part A) [Continuing Review](./src/001/ReadMe.md)
+    - [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
+    - [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
+  - 🕗 Part B) [JavaScript with HTML]
+    - HTML Forms, Event Listeners, and If/Else
+      - **Principles:** Use the `evt.target` for the `<form>` "context", and use it to get your individual form controls
+      - **Flow Control:** This is an involved example (and *practice*) for *decisions* (`if-else`)
+      - (🙈 Dan's eyes only... 👀 - see `http://localhost:4321/CPSC-1520/lessons/009/#-freelance-web-development---quote-estimator`)
+    - Yet another Starter Kit:
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/004 ./src/004
+      ```
+
+  - 🕘 Part C) [Data, data, data]
+    - [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
+- **Homework**
+  - Accept and read about ***Assignment 2***
+    - (🙈 Preview in Dan's "eyes only")
+  - About [***Lab 5***](#nov-5) (available at 11:30 AM | open 36 hours)
 
 ### Nov 05
 
+- **Today**
+  - 🕖 Part A)
+    - Checkboxes demo
+    - Playing Cards demo
+    - Yet another Starter Kit:
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
+      ```
+
+  - 🕗 Part B)
+    - *TBD*
+  - 🕘 Part C)
+    - Preview Lab 5 before and after
+      - (🙈 Preview in Dan's "eyes only")
+    - Retro Lab 5 as a practice
 - **In-Class Lab 5**
+    - Lab 5 (available at 11:30 AM | open 36 hours)
+      - [Retro Lab]
+      - [Your Actual Lab] - Preview
 
 
 ----
@@ -701,54 +749,107 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 ### Nov 10
 
 - *Fall Break*
+- **Today**
+  - ***Bonus** Class*
+    - This is a "catch-up" bonus class where you can ask questions and we can fill any knowledge "pot-holes" in the *Road to Recovery*.
+    - Assignment 2 Questions?!
 
 
 ### Nov 12
 
-
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ----
 
 
 ### Nov 17
 
-- **In-Class Lab 6**
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+    - **In-Class Lab 6**
+- **Homework**
 
 
 ### Nov 19
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ----
 
 ### Nov 24
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ### Nov 26
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ----
 
 
 ### Dec 01
 
-- **In-Class Lab 7**
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+    - **In-Class Lab 7**
+- **Homework**
 
 
 ### Dec 03
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ----
 
 
 ### Dec 08
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ### Dec 10
 
+- **Today**
+  - 🕖 Part A)
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
 ----
 
 ### Dec 15
 
-- **In-Class Lab 8**
+- **Today**
+  - 🕖 Part A)
+    - **In-Class Lab 8**
+  - 🕗 Part B)
+  - 🕘 Part C)
+- **Homework**
 
