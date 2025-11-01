@@ -719,7 +719,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Homework**
   - Accept and read about ***Assignment 2***
     - (🙈 Preview in Dan's "eyes only")
-  - About [***Lab 5***](#nov-5) (available at 11:30 AM | open 36 hours)
+  - About [***Lab 5***](#nov-05) (available at 11:30 AM | open 36 hours)
 
 ### Nov 05
 
@@ -760,6 +760,11 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 ### Nov 12
 
 - **Today**
+  - *A Look Ahead* 👀
+    - Fetch + JSON + recap JS Object Literals (*Today*)
+    - DOM API for creating/manipulating elements (includes *DOM Fragments* concept)
+    - Timers and Intervals
+    - JavaScript Classes
   - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
