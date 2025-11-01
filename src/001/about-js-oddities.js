@@ -1,4 +1,13 @@
-// node --watch about-js-oddities.js
+/* node --watch about-js-oddities.js
+
+- Dynamic Typing
+- Function Parameters and Arguments
+- Primitive Types
+- If/Else and truthy/falsy conditional expressions
+- Object Literal Syntax
+  - **Bonus** - Destructuring Syntax 🎉
+
+ */
 
 let now = new Date(); // Makes an object with the current date/time
 
