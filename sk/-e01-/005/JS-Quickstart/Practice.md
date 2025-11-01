@@ -1,4 +1,6 @@
+# JavaScript Only
 
+Can you create functions for the following algorithms?
 
 ## Factorial
 
