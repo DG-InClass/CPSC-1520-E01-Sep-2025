@@ -5,7 +5,7 @@ const log = console.log;
 topic("Strings and Arrays");
 let message = "Work hard and you'll get Arrays!";
 let words = message.split(' ');
-log("When we split a sentance into words:\n", words);
+log("When we split a sentence into words:\n", words);
 
 // Discover for..in
 for(let index in words) {
