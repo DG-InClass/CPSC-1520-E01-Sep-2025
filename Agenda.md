@@ -688,7 +688,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
-    - 📝 Please note the cut-off dates in the [Calendar](./Calendar.md)
+    - 📝 Please note the cut-off dates in the [**Calendar**](./Calendar.md)
   - **Start Here:** ![](./docs/images/checkered-flags-45x32.png) (10 min)
     - We're going to quickly review Event Listeners using [**this tutorial**](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
       - It includes how to [setup a Node project from scratch](./src/003/ReadMe.md)
