@@ -10,8 +10,12 @@ At the core, you really, really need to know how to install software on your com
     - [ ] [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)
     - [ ] [Working with JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)
   - Review the notes on using the [GitDoc extension](https://github.com/lostintangent/gitdoc#gitdoc-). Also review these instructions on how to turn on [AutoSave in VS Code](https://neutrondev.com/vs-code-auto-save/).
-  - Watch [**The New Way To Debug JavaScript in VS Code - No Extension Required**](https://youtu.be/tC91t9OvVHA) (Video - 7:20 - July 2021)
+<!--  - Watch [**The New Way To Debug JavaScript in VS Code - No Extension Required**](https://youtu.be/tC91t9OvVHA) (Video - 7:20 - July 2021) -->
   - **Practice** writing [Markdown](https://commonmark.org/help/)
+  - Get comfortable with the **terminal** (and how to open it in a particular folder).
+
+    ![](./images/open-folder-in-integrated-terminal.png)
+
 - **git** and **GitHub CLI**
   - When not using GitDoc and Autosave (see above), you need to always follow [**The Routine**](./TheRoutine.md)
 
