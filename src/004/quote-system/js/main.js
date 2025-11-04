@@ -1,10 +1,15 @@
 
 document.querySelector('form')
     .addEventListener('submit', function(evt) {
-        evt.preventDefault();
-        const form = evt.target;
+        // ALWAYS prevent the default behaviour of a form submit
+        //      (in this course)
+        evt.preventDefault(); // 🎵
+        const form = evt.target; // This is always <form></form>
+        // Every <form> element keeps track of all its input
+        // controls and buttons
         const formControls = form.elements;
 
+        console.log('The following are all the controls on the <form>');
         console.log(formControls);
 
         // Output is being displayed as "plain text" in the browser

@@ -703,7 +703,9 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕖 Part A) [Continuing Review](./src/001/ReadMe.md)
     - [x] [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
     - [x] [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
-  - 🕗 Part B) [JavaScript with HTML]
+  - 🕗 Part B)
+    - [x] *Just continued from previous part...*
+  - 🕘 Part C) [JavaScript with HTML]
     - [x] (started) HTML Forms, Event Listeners, and If/Else
       - **Principles:** Use the `evt.target` for the `<form>` "context", and use it to get your individual form controls
       - **Flow Control:** This is an involved example (and *practice*) for *decisions* (`if-else`)
@@ -714,8 +716,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/004 ./src/004
       ```
 
-  - 🕘 Part C) [Data, data, data]
-    - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
 - **Homework**
   - [x] Accept and read about ***Assignment 2***
     - (🙈 Preview in Dan's "eyes only")
@@ -725,6 +725,11 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - 💡 Preview an example of *Assignment 2*
+      - Read the following:
+        - [Starting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-acceptance/) about cloning onto your computer
+        - [Submitting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-submission/) about **continuous submission**
+        - [Lab Updates](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) and how to get/apply them to your repository
     - Continue Flow Control (Freelance) Demo
     - Checkboxes demo
   - 🕗 Part B)
@@ -735,7 +740,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
       ```
 
-  - 🕘 Part C)
+  - 🕘 Part C) [Data, data, data]
+    - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
     - Preview Lab 5 before and after
       - (🙈 Preview in Dan's "eyes only")
     - [Retro Lab 5] as a practice
