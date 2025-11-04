@@ -691,7 +691,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today**
   - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
     - 📝 Please note the cut-off dates in the [**Calendar**](./Calendar.md)
-  - **Start Here:** ![](./docs/images/checkered-flags-45x32.png) (10 min)
+  - 🕖 Part A) **Start Here:** ![](./docs/images/checkered-flags-45x32.png) (~~10~~ *50* min)
     - [x] We're going to quickly review Event Listeners using [**this tutorial**](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
       - It includes how to [setup a Node project from scratch](./src/003/ReadMe.md)
     - [x] Time for a Starter Kit:
@@ -700,10 +700,9 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/003 ./src/003
       ```
 
-  - 🕖 Part A) [Continuing Review](./src/001/ReadMe.md)
+  - 🕗 Part B) [Continuing Review](./src/001/ReadMe.md)
     - [x] [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
     - [x] [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
-  - 🕗 Part B)
     - [x] *Just continued from previous part...*
   - 🕘 Part C) [JavaScript with HTML]
     - [x] (started) HTML Forms, Event Listeners, and If/Else
