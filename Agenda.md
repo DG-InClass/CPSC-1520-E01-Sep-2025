@@ -692,19 +692,19 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - [***Quiz Reminders***](#quiz-links) - All Brightspace quizzes are available, and links to the related readings can be found above.
     - 📝 Please note the cut-off dates in the [**Calendar**](./Calendar.md)
   - **Start Here:** ![](./docs/images/checkered-flags-45x32.png) (10 min)
-    - We're going to quickly review Event Listeners using [**this tutorial**](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
+    - [x] We're going to quickly review Event Listeners using [**this tutorial**](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
       - It includes how to [setup a Node project from scratch](./src/003/ReadMe.md)
-    - Time for a Starter Kit:
+    - [x] Time for a Starter Kit:
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/003 ./src/003
       ```
 
   - 🕖 Part A) [Continuing Review](./src/001/ReadMe.md)
-    - [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
-    - [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
+    - [x] [`src/001/about-js-oddities.js`](./src/001/ReadMe.md#about-javascript-oddities) - function params/args, etc.
+    - [x] [`src/001/about-modules.js`](./src/001/ReadMe.md#about-modules) - why JavaScript modules (*ECM*)?
   - 🕗 Part B) [JavaScript with HTML]
-    - HTML Forms, Event Listeners, and If/Else
+    - [x] (started) HTML Forms, Event Listeners, and If/Else
       - **Principles:** Use the `evt.target` for the `<form>` "context", and use it to get your individual form controls
       - **Flow Control:** This is an involved example (and *practice*) for *decisions* (`if-else`)
       - (🙈 Dan's eyes only... 👀 - see `http://localhost:4321/CPSC-1520/lessons/009/#-freelance-web-development---quote-estimator`)
@@ -715,17 +715,19 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       ```
 
   - 🕘 Part C) [Data, data, data]
-    - [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
+    - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
 - **Homework**
-  - Accept and read about ***Assignment 2***
+  - [x] Accept and read about ***Assignment 2***
     - (🙈 Preview in Dan's "eyes only")
-  - About [***Lab 5***](#nov-05) (available at 11:30 AM | open 36 hours)
+  - [x] Note: About [***Lab 5***](#nov-12) (available at 11:30 AM | open 36 hours)
 
 ### Nov 05
 
 - **Today**
   - 🕖 Part A)
+    - Continue Flow Control (Freelance) Demo
     - Checkboxes demo
+  - 🕗 Part B)
     - Playing Cards demo
     - Yet another Starter Kit:
 
@@ -733,16 +735,10 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
       ```
 
-  - 🕗 Part B)
-    - *TBD*
   - 🕘 Part C)
     - Preview Lab 5 before and after
       - (🙈 Preview in Dan's "eyes only")
-    - Retro Lab 5 as a practice
-- **In-Class Lab 5**
-    - Lab 5 (available at 11:30 AM | open 36 hours)
-      - [Retro Lab]
-      - [Your Actual Lab] - Preview
+    - [Retro Lab 5] as a practice
 
 
 ----
@@ -768,6 +764,9 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
+    - **In-Class Lab 5**
+        - Lab 5 (available at 11:30 AM | open 36 hours)
+          - [Your Actual Lab] - Preview
 - **Homework**
 
 ----
