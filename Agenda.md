@@ -717,7 +717,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Homework**
   - [x] Accept and read about ***Assignment 2***
-    - (🙈 Preview in Dan's "eyes only")
   - [x] Note: About [***Lab 5***](#nov-12) (available at 11:30 AM | open 36 hours)
 
 ### Nov 05
@@ -725,6 +724,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today** *and [**bonus class**](#nov-10)
   - 🕖 Part A)
     - 💡 Preview an example of *Assignment 2*
+      - (🙈 Preview in Dan's "eyes only" location 💻)
       - Read the following:
         - [Starting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-acceptance/) about cloning onto your computer
         - [Submitting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-submission/) about **continuous submission**
