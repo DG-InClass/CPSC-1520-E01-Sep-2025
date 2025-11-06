@@ -721,7 +721,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 ### Nov 05
 
-- **Today** *and [**bonus class**](#nov-10)
+- **Today** *and [**bonus class**](#nov-10)*
   - 🕖 Part A)
     - 💡 Preview an example of *Assignment 2*
       - (🙈 Preview in Dan's "eyes only" location 💻)
@@ -741,6 +741,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕘 Part C) [Data, data, data]
     - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
+- **Homework**
+  - [ ] At the end of today's class, send me (Dan) a message on MS Teams with at least 1 question you have about JavaScript.
 
 
 ----
