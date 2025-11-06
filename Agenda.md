@@ -722,7 +722,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 ### Nov 05
 
-- **Today**
+- **Today** *and [**bonus class**](#nov-10)
   - 🕖 Part A)
     - 💡 Preview an example of *Assignment 2*
       - Read the following:
@@ -730,20 +730,17 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
         - [Submitting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-submission/) about **continuous submission**
         - [Lab Updates](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) and how to get/apply them to your repository
     - Continue Flow Control (Freelance) Demo
-    - Checkboxes demo
   - 🕗 Part B)
-    - Playing Cards demo
-    - Yet another Starter Kit:
+    - Yet another **Starter Kit**:
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
       ```
 
+    - [Checkboxes demo](./src/005/Checkboxes/ReadMe.md)
+    - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕘 Part C) [Data, data, data]
     - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
-    - Preview Lab 5 before and after
-      - (🙈 Preview in Dan's "eyes only")
-    - [Retro Lab 5] as a practice
 
 
 ----
@@ -754,6 +751,9 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - *Fall Break*
 - **Today**
   - ***Bonus** Class*
+    - Preview Lab 5 before and after
+      - (🙈 Preview in Dan's "eyes only")
+    - [Retro Lab 5] as a practice
     - This is a "catch-up" bonus class where you can ask questions and we can fill any knowledge "pot-holes" in the *Road to Recovery*.
     - Assignment 2 Questions?!
 
