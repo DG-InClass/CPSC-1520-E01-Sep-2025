@@ -729,7 +729,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
         - [Starting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-acceptance/) about cloning onto your computer
         - [Submitting Your Lab](https://dgilleland.github.io/CPSC-1520/guides/lab-submission/) about **continuous submission**
         - [Lab Updates](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) and how to get/apply them to your repository
-    - Continue Flow Control (Freelance) Demo
+    - Continue Flow Control [(Freelance)](./src/004/quote-system/ReadMe.md) Demo
   - 🕗 Part B)
     - Yet another **Starter Kit**:
 
