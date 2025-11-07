@@ -731,14 +731,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
         - [Lab Updates](https://dgilleland.github.io/CPSC-1520/guides/lab-updates/) and how to get/apply them to your repository
     - Continue Flow Control [(Freelance)](./src/004/quote-system/ReadMe.md) Demo
   - 🕗 Part B)
-    - Yet another **Starter Kit**:
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
-      ```
-
-    - [Checkboxes demo](./src/005/Checkboxes/ReadMe.md)
-    - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕘 Part C) [Data, data, data]
     - [ ] [`src/001/arrays-and-loops.js`](./src/001/ReadMe.md#arrays-and-loops)
 - **Homework**
@@ -753,12 +745,23 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - *Fall Break*
 - **Today**
   - ***Bonus** Class*
+  - 🕖 Part A)
     - Preview Lab 5 before and after
       - (🙈 Preview in Dan's "eyes only")
     - [Retro Lab 5] as a practice
     - This is a "catch-up" bonus class where you can ask questions and we can fill any knowledge "pot-holes" in the *Road to Recovery*.
     - Assignment 2 Questions?!
+      - **💫 Note the new due-date**
+  - 🕗 Part B)
+    - Yet another **Starter Kit**:
 
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005 ./src/005
+      ```
+
+    - [Checkboxes demo](./src/005/Checkboxes/ReadMe.md)
+  - 🕘 Part C)
+    - Follow along with an *alternate Lab 4* (See Brightspace Announcement)
 
 ### Nov 12
 
@@ -769,10 +772,17 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - Timers and Intervals
     - JavaScript Classes
   - 🕖 Part A)
+    - Continue from Monday's **Starter Kit** (or use the following to just grab today's portion of the starter kit)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005/PlayingCards ./src/005/PlayingCards
+      ```
+
+    - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕗 Part B)
   - 🕘 Part C)
     - **In-Class Lab 5**
-        - Lab 5 (available at 11:30 AM | open 36 hours)
+        - Lab 5 (available at 11:30 AM | due by Nov 14, 2025 2:00 PM | open **50** hours)
           - [Your Actual Lab] - Preview
 - **Homework**
 
