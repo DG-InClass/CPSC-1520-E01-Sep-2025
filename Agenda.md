@@ -767,10 +767,16 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - *A Look Ahead* 👀
+
+    **FYI:** These topics are for future classes. The represent the remainder of the required parts of the course.
+
     - Fetch + JSON + recap JS Object Literals (*Today*)
     - DOM API for creating/manipulating elements (includes *DOM Fragments* concept)
     - Timers and Intervals
     - JavaScript Classes
+    - **Bonus Topics**
+      - Deconstructing Objects and Arrays
+      - Spread Operator
   - 🕖 Part A)
     - Continue from Monday's **Starter Kit** (or use the following to just grab today's portion of the starter kit)
 
