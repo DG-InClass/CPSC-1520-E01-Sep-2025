@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-05). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-10). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > See the [Welcome](#-welcome-to-cpsc-1520---revitalized-)
 >
@@ -795,7 +795,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
-    - **In-Class Lab 6**
 - **Homework**
 
 
@@ -805,6 +804,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕖 Part A)
   - 🕗 Part B)
   - 🕘 Part C)
+    - **In-Class Lab 6**
 - **Homework**
 
 ----
