@@ -780,6 +780,12 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
     - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕗 Part B)
+    - ***Bonus* Playing Cards**:
+      - Refactor/Improve the Code with
+        - Modules
+      - Clear the form and start a "new game"
+        - HTML Additions
+      - Get a random deck on each new "game"
   - 🕘 Part C)
     - **In-Class Lab 5**
         - Lab 5 (available at 11:30 AM | due by Nov 14, 2025 2:00 PM | open **50** hours)
