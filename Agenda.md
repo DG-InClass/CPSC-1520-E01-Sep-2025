@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-10). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-12). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > See the [Welcome](#-welcome-to-cpsc-1520---revitalized-)
 >
@@ -778,7 +778,10 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       - Deconstructing Objects and Arrays
       - Spread Operator
   - 🕖 Part A)
-    - Continue from Monday's **Starter Kit** (or use the following to just grab today's portion of the starter kit)
+    - **Fetch**
+      - [Fetch Fundamentals](./src/005/JS-Quickstart/about-fetch-api.js)
+      - [Fetch and Map](./src/005/JS-Quickstart/about-fetch-then-map.js)
+    - Continue from Monday's **Starter Kit** (or use the following to just grab today's portion of the starter kit - *with improved CSS ✨*)
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/-e01-/005/PlayingCards ./src/005/PlayingCards
@@ -788,15 +791,33 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕗 Part B)
     - ***Bonus* Playing Cards**:
       - Refactor/Improve the Code with
+        - An `id="create-players"` for the `<form>`
+        - Setting focus for the first `<input>` in the form
         - Modules
       - Clear the form and start a "new game"
         - HTML Additions
-      - Get a random deck on each new "game"
+
+          ```html
+            <form id="new-game" class="hidden">
+                <button type="submit">New Game</button>
+            </form>
+          ```
+
+        - Clears the `id="players"` container and re-enables the prior form
+      - Get a random deck on each new "game" with two `fetch()` calls and a `.map()`:
+        - `https://deckofcardsapi.com/api/deck/new/shuffle/`
+        - `https://deckofcardsapi.com/api/deck/${deck_id}/draw/?count=52`
+        - We'll do these as `async/await`.
+        - We'll put them in a function called `shuffleDeck(deck)` where `deck` is an object: `{ cards: string[] }`
   - 🕘 Part C)
     - **In-Class Lab 5**
         - Lab 5 (available at 11:30 AM | due by Nov 14, 2025 2:00 PM | open **50** hours)
           - [Your Actual Lab] - Preview
 - **Homework**
+  - Study/explore the code for
+    - [`cards.js`](./src/005/JS-Quickstart/cards.js)
+    - [`fetch-cards-demo.js`](./src/005/JS-Quickstart/fetch-cards-demo.js)
+  - Read about the [HTTP Request/Response](https://dgilleland.github.io/CPSC-1520/explanations/0050/)
 
 ----
 

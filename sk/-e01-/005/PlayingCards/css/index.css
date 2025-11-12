@@ -39,6 +39,9 @@ main {
     }
 }
 
+input {
+    @apply border px-1.5 py-0.5;
+}
 
 /* ## Fat Footer
 | Element                                 | Tailwind Roles                                 |
