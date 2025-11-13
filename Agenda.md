@@ -818,6 +818,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - [`cards.js`](./src/005/JS-Quickstart/cards.js)
     - [`fetch-cards-demo.js`](./src/005/JS-Quickstart/fetch-cards-demo.js)
   - Read about the [HTTP Request/Response](https://dgilleland.github.io/CPSC-1520/explanations/0050/)
+  - Read my [Cards](https://dgilleland.github.io/CPSC-1520/demos/playing-cards/) article
 
 ----
 
