@@ -1,4 +1,5 @@
 // node --watch about-fetch-api.js
+console.clear();
 console.log('Learning to fetch JSON data...');
 
 // This URL will give us a JSON string as a resonse
@@ -12,7 +13,11 @@ fetch(apiEndPoint).then(x => console.log('done!'));
 //                  | Also returns a Promise
 // Fetch is a non-blocking API
 
-fetch(apiEndPoint)
+console.log('\nJust called the fetch() API.\n');
+// return;
+console.clear();
+
+fetch(apiEndPoint)  // Request to a web server
     .then(x => x.json()) // Parses the response as JSON
     //    x (above) is a Response object; we're expecting JSON
     //    x (below) is a JavaScript object (because we parsed)

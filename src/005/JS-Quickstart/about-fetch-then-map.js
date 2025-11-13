@@ -8,5 +8,5 @@ fetch('http://randomuser.me/api?results=10')
             let place = item.location.city;
             return `${name} is from ${place}.`;
         });
-        console.table(info);
+        console.log(info);
     });
