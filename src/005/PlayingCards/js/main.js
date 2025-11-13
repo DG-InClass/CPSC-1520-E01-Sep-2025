@@ -33,6 +33,21 @@ form.addEventListener('submit', function(evt) {
 
 const dealButton = document.getElementById('deal-me-in');
 // TODO: Add Event Listener
+dealButton.addEventListener('click', function(evt) {
+    console.clear();
+    const players = container.querySelectorAll('div');
+    //                       \______________________/
+    // I can use the .forEach() function that comes with the NodeList
+    players.forEach(playerHand => {
+        // TODO: Make sure there are enough cards left in the deck...
+
+        // Deal a card to the player's hand
+        const card = shuffledCards.pop();
+        const img = `<img src="/img/${card}.svg" alt="${card}" />`;
+        console.log(img);
+        playerHand.innerHTML += img;
+    });
+});
 
 const shuffledCards = [
     "4D",
