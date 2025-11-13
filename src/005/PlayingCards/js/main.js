@@ -2,6 +2,34 @@ const container = document.getElementById('players');
 
 const form = document.querySelector('form');
 // TODO: Add Event Listener
+form.addEventListener('submit', function(evt) {
+    evt.preventDefault();
+    console.log('Adding Players...');
+
+    // Get the names
+    const inputNames = evt.target.elements.playerNames;
+    //                 <input name="playerNames" />
+    const names = inputNames.value.split(',').map(name => name.trim());
+    //            \____string____/
+    //                             \string[]/
+    //                                       \ transform new string[] /
+    // console.log(names);
+    if (names.length > 0) {
+        // console.log(names.length);
+        // Add players to the container
+        names.forEach((player, index) => {
+            // console.log(player, index);
+            const html = `<div id="player-${index}"><h2>${player}</h2></div>`;
+            // console.log(container);
+            container.innerHTML += html;
+        });
+        // Show the container
+        container.classList.remove('hidden');
+        // Disable the button, hide the form
+        evt.target.elements.createPlayers.setAttribute('disabled', 'true');
+        evt.target.classList.add('hidden');
+    }
+})
 
 const dealButton = document.getElementById('deal-me-in');
 // TODO: Add Event Listener
