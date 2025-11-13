@@ -2,7 +2,7 @@ const container = document.getElementById('players');
 
 const form = document.querySelector('form');
 // TODO: Add Event Listener
-form.addEventListener('submit', function(evt) {
+form.addEventListener('submit', async function(evt) {
     evt.preventDefault();
     console.log('Adding Players...');
 
@@ -28,6 +28,13 @@ form.addEventListener('submit', function(evt) {
         // Disable the button, hide the form
         evt.target.elements.createPlayers.setAttribute('disabled', 'true');
         evt.target.classList.add('hidden');
+
+        // Get a brand new deck of cards
+        let newCards = await freshCards();
+        // The ... is called the "spread operator"
+        shuffledCards.splice(0, shuffledCards.length, ...newCards);
+        console.clear();
+        console.log('New deck:', shuffledCards);
     }
 })
 
@@ -48,6 +55,26 @@ dealButton.addEventListener('click', function(evt) {
         playerHand.innerHTML += img;
     });
 });
+
+const freshCards = async function() {
+    const BASE_URL = 'https://deckofcardsapi.com/api/deck/';
+
+    // Get a new shuffled deck
+    // await prevents fetch from running asynchronously
+    let resp = await fetch(`${BASE_URL}new/shuffle/`);
+    let data = await resp.json();
+    // console.log(data);
+    let deckId = data.deck_id;
+
+    // Draw all 52 cards
+    resp = await fetch(`${BASE_URL}${deckId}/draw/?count=52`);
+    data = await resp.json();
+    console.log('Here are my cards:', data);
+
+    // Return a clean array of all the card codes
+    const codes = data.cards.map(oneCard => oneCard.code);
+    return codes;
+}
 
 const shuffledCards = [
     "4D",
