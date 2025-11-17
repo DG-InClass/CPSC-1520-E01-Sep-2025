@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-12). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-17). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > See the [Welcome](#-welcome-to-cpsc-1520---revitalized-)
 >
@@ -790,25 +790,11 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - [Playing Cards demo](./src/005/PlayingCards/ReadMe.md)
   - 🕗 Part B)
     - ***Bonus* Playing Cards**:
-      - Refactor/Improve the Code with
-        - An `id="create-players"` for the `<form>`
-        - Setting focus for the first `<input>` in the form
-        - Modules
-      - Clear the form and start a "new game"
-        - HTML Additions
-
-          ```html
-            <form id="new-game" class="hidden">
-                <button type="submit">New Game</button>
-            </form>
-          ```
-
-        - Clears the `id="players"` container and re-enables the prior form
       - Get a random deck on each new "game" with two `fetch()` calls and a `.map()`:
-        - `https://deckofcardsapi.com/api/deck/new/shuffle/`
-        - `https://deckofcardsapi.com/api/deck/${deck_id}/draw/?count=52`
-        - We'll do these as `async/await`.
-        - We'll put them in a function called `shuffleDeck(deck)` where `deck` is an object: `{ cards: string[] }`
+        - ✔️ `https://deckofcardsapi.com/api/deck/new/shuffle/`
+        - ✔️ `https://deckofcardsapi.com/api/deck/${deck_id}/draw/?count=52`
+        - ✔️ We'll do these as `async/await`.
+        - ❌ We'll put them in a function called `shuffleDeck(deck)` where `deck` is an object: `{ cards: string[] }`
   - 🕘 Part C)
     - **In-Class Lab 5**
         - Lab 5 (available at 11:30 AM | due by Nov 14, 2025 2:00 PM | open **50** hours)
@@ -827,10 +813,56 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - Lab 5 Takeaways
+      - Pay attention to imports and exports. When I give you something through an `import`, you should use it and not create your own version.
+      - How JSDoc comments work (and why I include them in your lab/assignment)
+      - ♻️ Recall from [`~src/003/`](./src/003/) how you can listen for events such as `'click'` on **parent elements** in the DOM
+      - **Never** download the *zip* of your repository!
+      - How `data-*` attributes work on elements and in JavaScript
+      - Important notes on [DOM Elements](#dom-elements) were in the lab specs.
+    - **DOM APIs**
+      - About `.closest()`, `.parent`, and `.remove()` on HTML Elements....
+      - About `document.createElement()` and `document.createNode()`
+      - Scads of other APIs
+    - **Lab 6 Preview**
+      - [Dan's Eyes Only 👀](https://github.com/DG-InClass/SKDG-IC-6/blob/master/In-Class-6.md)
+      - Remember that the `.querySelector()` function can be used on *any* HTMLElement, not just the root `document` element.
+      - Only superficially similar to the day-time one
   - 🕗 Part B)
-  - 🕘 Part C)
-- **Homework**
+    - User Profile Demo. Begin with this starter kit:
 
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/UserProfile ./src/006/UserProfile
+      ```
+
+  - 🕘 Part C)
+    - **Playing Cards**
+      - Refactor/Improve the Code with
+        - An `id="create-players"` for the `<form>`
+        - Setting focus for the first `<input>` in the form
+        - Modules
+      - Clear the form and start a "new game"
+        - HTML Additions
+
+          ```html
+            <form id="new-game" class="hidden">
+                <button type="submit">New Game</button>
+            </form>
+          ```
+
+        - Clears the `id="players"` container and re-enables the prior form
+- **Homework**
+  - Research the [`<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/template#usage_notes) in preparation for In-Class Lab 6
+
+> #### DOM Elements
+> 
+> You should already be familiar with the `document.querySelector()` function. But did you know that you can call `.querySelector()` on *any* DOM element? When you use `document`, it searches from the root of the web page until it finds the item with the matching selector string. If you call the method from another element - `myNav.querySelector('img')` for example - it will begin its search from the `myNav` element to look for the first child element that matches the selector.
+> 
+> There's also a function on elements called `.closest()` which searches *up* the DOM tree to find the nearest *ancestor* that matches the selector string.
+> 
+> If you have a variable that references an element in the DOM, you can use the `.remove()` function to delete that element (and its children) from the page.
+> 
+> Lastly, all DOM elements have a `.tagName` property which holds an upper-case string of the element's tag name.
 
 ### Nov 19
 
