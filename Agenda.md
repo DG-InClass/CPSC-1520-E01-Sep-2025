@@ -829,11 +829,12 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       - Remember that the `.querySelector()` function can be used on *any* HTMLElement, not just the root `document` element.
       - Only superficially similar to the day-time one
   - 🕗 Part B)
-    - User Profile Demo. Begin with this starter kit:
+    - Exploring the DOM API for creating Elements and TextNodes.
+      - User Profile Demo. Begin with this starter kit:
 
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/UserProfile ./src/006/UserProfile
-      ```
+        ```ps
+        pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/UserProfile ./src/006/UserProfile
+        ```
 
   - 🕘 Part C)
     - **Playing Cards**
@@ -868,10 +869,19 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - [Move/Remove Demo](./src/013/MoveRemove/ReadMe.md).
+      - Exploring more DOM API methods.
+      - Begin with this starter kit:
+
+        ```ps
+        pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/MoveRemove ./src/013/MoveRemove
+        ```
+
   - 🕗 Part B)
   - 🕘 Part C)
     - **In-Class Lab 6**
 - **Homework**
+  - Readings in [Move/Remove Demo](./src/013/MoveRemove/ReadMe.md)
 
 ----
 
