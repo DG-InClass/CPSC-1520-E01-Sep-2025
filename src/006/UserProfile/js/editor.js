@@ -34,13 +34,36 @@ export function setupEditor({editorForm, editorContainer, profileContainer}) {
 const displayProfile = function({container, displayName, bio}) {
     const paragraphs = bio.split('\n');
 
-    // An overly-trusting way to display the content...
-    let html = `<h2>${displayName}</h2>`;
-    html += '<blockquote>';
-    paragraphs.forEach(para => {
-        html += `<p>${para}</p>`;
-    })
-    html += '</blockquote>';
+    // Here's how we build HTML elements programmatically with the
+    // DOM API. These next 3 lines are creating "detached" elements
+    // - elements that are not part of the active document object
+    // (not yet...).
+    const h2Element = document.createElement('h2');
+    const textNode = document.createTextNode(displayName);
+    h2Element.appendChild(textNode); // puts the textNode inside of
+                                     // the h2Element
     
-    container.innerHTML = html;
+    // Let's build each paragraph and append them to the blockquote
+    const blockquote = document.createElement('blockquote');
+    paragraphs.forEach(line => {
+        const paraElement = document.createElement('p');
+        const text = document.createTextNode(line);
+        paraElement.appendChild(text);
+        blockquote.appendChild(paraElement);
+    });
+
+    // The h2Element only becomes part of the document tree when I
+    // add it to an already existing part of my document.
+    container.appendChild(h2Element);
+    container.appendChild(blockquote);
+
+    // // An overly-trusting way to display the content...
+    // let html = `<h2>${displayName}</h2>`;
+    // html += '<blockquote>';
+    // paragraphs.forEach(para => {
+    //     html += `<p>${para}</p>`;
+    // })
+    // html += '</blockquote>';
+    
+    // container.innerHTML = html;
 }
