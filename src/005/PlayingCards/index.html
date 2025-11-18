@@ -24,9 +24,12 @@
     <main>
         <h1>Card Game</h1>
         <section>
-            <form>
-                <input type="text" name="playerNames" placeholder="Comma-separated names"/>
+            <form id="create-players">
+                <input type="text" name="playerNames" placeholder="Comma-separated names" autofocus autocomplete="off" />
                 <button type="submit" name="createPlayers">Create Players</button>
+            </form>
+            <form id="new-game" class="hidden">
+                <button type="submit">New Game</button>
             </form>
         </section>
         <button id="deal-me-in" type="button">
