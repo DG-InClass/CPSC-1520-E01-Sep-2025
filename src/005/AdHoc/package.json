@@ -1,0 +1,16 @@
+{
+  "name": "ad-hoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "dgilleland",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
+}
