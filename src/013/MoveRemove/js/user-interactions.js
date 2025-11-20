@@ -8,6 +8,8 @@
  */
 export function configureTodoActions({todoForm, unsortedList, sortedList}) {
     // TODO: 
+    setupFormProcessing({todoForm, unsortedList});
+    setupButtonClicks({unsortedList, sortedList});
 }
 
 /**
@@ -18,7 +20,14 @@ export function configureTodoActions({todoForm, unsortedList, sortedList}) {
  * @param {HTMLUListElement} document.unsortedList Unordered list of Todo items
  */
 const setupFormProcessing = function({todoForm, unsortedList}) {
-
+    todoForm.addEventListener('submit', (ev) => {
+        ev.preventDefault();
+        // I'll ignore validation for the moment
+        // <input name="todo" />
+        const reminder = ev.target.elements.todo.value;
+        const li = createUnsortedListItem(reminder);
+        unsortedList.appendChild(li);
+    });
 }
 
 /**
@@ -37,6 +46,40 @@ const setupButtonClicks = function({unsortedList, sortedList}) {
     // Move an item from unsorted to sorted using the `.appendChild()`
     // Move an item up or down in the list with `.insertBefore()`.
 }
+
+
+// **** Utility Functions *****
+const createUnsortedListItem = function(text) {
+    // <li>{text} <btn>trash</btn> <btn>move-right<btn>
+    const li = document.createElement('li');
+    const textNode = document.createTextNode(text);
+    const trashButton = createButton('secondary');
+
+    // Assemble the parts
+
+    return li;
+}
+
+const createButton = (className) => {
+    const element = document.createElement('button');
+    element.type = 'button';
+    element.classList.add('outline', className);
+    return element;
+}
+
+// ***** Utility Objects ******
+const buttonType = {
+    primary: 'primary',
+    secondary: 'secondary'
+}
+
+const icon = {
+    trash: 'la-trash',
+    moveRight: 'la-arrow-right',
+    moveUp: 'la-arrow-circle-up',
+    moveDown: 'la-arrow-circle-down'
+}
+
 
 // NOTES:
 //
