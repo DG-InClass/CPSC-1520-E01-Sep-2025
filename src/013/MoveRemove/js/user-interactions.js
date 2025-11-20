@@ -53,11 +53,27 @@ const createUnsortedListItem = function(text) {
     // <li>{text} <btn>trash</btn> <btn>move-right<btn>
     const li = document.createElement('li');
     const textNode = document.createTextNode(text);
-    const trashButton = createButton('secondary');
+    const trashButton = createButton(buttonType.secondary);
+    const trashIcon = createFontIcon(icon.trash);
+    const moveButton = createButton(buttonType.primary);
+    const moveIcon = createFontIcon(icon.moveRight);
 
     // Assemble the parts
+    li.appendChild(textNode);
+    li.appendChild(createSpace());
+    li.appendChild(trashButton);
+    trashButton.appendChild(trashIcon);
+    li.appendChild(createSpace());
+    li.appendChild(moveButton);
+    moveButton.appendChild(moveIcon);
 
     return li;
+}
+
+const createFontIcon = (iconName) => {
+    const element = document.createElement('i');
+    element.classList.add('las', iconName);
+    return element;
 }
 
 const createButton = (className) => {
@@ -66,6 +82,8 @@ const createButton = (className) => {
     element.classList.add('outline', className);
     return element;
 }
+
+const createSpace = () => document.createTextNode(' ');
 
 // ***** Utility Objects ******
 const buttonType = {
