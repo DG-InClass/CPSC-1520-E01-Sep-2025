@@ -38,6 +38,60 @@ const setupFormProcessing = function({todoForm, unsortedList}) {
  * @param {HTMLOListElement} document.sortedList Ordered list of Todo items
  */
 const setupButtonClicks = function({unsortedList, sortedList}) {
+    // Think about the structure of our HTML
+    //      - ul                <=== add our listener
+    //          |- li
+    //              |- text
+    //              |- button
+    //                  |- i
+    //              |- button
+    //                  | -i
+    unsortedList.addEventListener('click', (ev) => {
+        // ev.target.tagName  should be either 'BUTTON' or 'I'
+        console.log(ev.target.tagName);
+        const btn = getButton(ev.target);
+        if(btn) { // if I have a button....
+            /** @type {HTMLElement} */
+            const child = btn.firstElementChild; // d-oh
+            let action = "";
+            child.classList.forEach(className => {
+                if(className === icon.trash) action = icon.trash;
+                if(className === icon.moveRight) action = icon.moveRight;
+            });
+            // Now that I know which "action" to perform,
+            // I can do that action on my <li>
+            const listItem = btn.parentElement;
+            switch(action) {
+                case icon.trash:
+                    // remove
+                    listItem.remove();
+                    break;
+                case icon.moveRight:
+                    // move it
+                    sortedList.appendChild(listItem);
+                    // customize the list item
+                    const moveUp = createButton(buttonType.primary);
+                    const moveIcon = createFontIcon(icon.moveUp);
+                    moveUp.appendChild(moveIcon);
+                    listItem.replaceChild(moveUp, btn);
+
+                    const moveDown = createButton(buttonType.primary);
+                    const downIcon = createFontIcon(icon.moveDown);
+                    moveDown.appendChild(downIcon);
+                    listItem.appendChild(createSpace());
+                    listItem.appendChild(moveDown);
+
+                    break;
+            }
+        }
+    });
+
+    // TODO: Homework - Create the event listener for the
+    //                  sorted list and respond to button
+    //                  clicks with the correct action.
+    //                  HINT: use the .insertBefore() method
+    //                  on the HTML Elements
+
     // Challenge: Can you do this with ONE event handler?!
 
     // Only respond to clicks on buttons
@@ -49,6 +103,18 @@ const setupButtonClicks = function({unsortedList, sortedList}) {
 
 
 // **** Utility Functions *****
+/**
+ * Try to get the button element that was clicked on
+ * @param {HTMLElement} element The target I am examining
+ * @returns {HTMLButtonElement | null} What I found
+ */
+const getButton = (element) => {
+    let result = null;
+    if(element.tagName === 'BUTTON') result = element;
+    else if(element.parentElement.tagName === 'BUTTON') result = element.parentElement;
+    return result;
+}
+
 const createUnsortedListItem = function(text) {
     // <li>{text} <btn>trash</btn> <btn>move-right<btn>
     const li = document.createElement('li');
