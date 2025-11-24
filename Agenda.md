@@ -892,25 +892,25 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - Intro to Timeouts
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/720/IntroToTimeouts ./src/014/IntroToTimeouts
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/IntroToTimeouts ./src/014/IntroToTimeouts
       ```
 
     - Intro to Intervals
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/720/IntroToIntervals ./src/014/IntroToIntervals
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/IntroToIntervals ./src/014/IntroToIntervals
       ```
 
     - A Practical Application: Stopwatch
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/720/StopWatch2.0 ./src/014/StopWatch2.0
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/StopWatch2.0 ./src/014/StopWatch2.0
       ```
   - 🕗 Part B)
     - An Intro to Classes: Rectangles
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/720/Rectangles ./src/015/Rectangles
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/Rectangles ./src/015/Rectangles
       ```
 
   - 🕘 Part C)
