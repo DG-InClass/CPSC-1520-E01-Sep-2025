@@ -21,18 +21,23 @@ document.getElementById('main-button').addEventListener('click', function() {
   if (mainButton.textContent === 'Start') {
     const startTime = Date.now() - elapsedTime;
     // A) Start the interval
+    stopwatchInterval = setInterval(function() {
+      elapsedTime = Date.now() - startTime;
+      // Update my display
+      stopwatch.textContent = formatTime(elapsedTime);
+    }, 10); // Run the interval every 10 milliseconds
 
     mainButton.textContent = 'Stop';
   } else {
     // B) Stop the interval
-
+    clearInterval(stopwatchInterval); // Stop the stopwatch
     mainButton.textContent = 'Start';
   }
 });
 
 document.getElementById('clear-button').addEventListener('click', function() {
   // C) Stop the interval before clearing the display
-
+  clearInterval(stopwatchInterval);
   document.getElementById('main-button').textContent = 'Start';
   document.querySelector('.stopwatch').textContent = '00:00:00:000';
   elapsedTime = 0;
