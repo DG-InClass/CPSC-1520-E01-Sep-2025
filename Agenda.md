@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-24). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-26). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > See the [Welcome](#-welcome-to-cpsc-1520---revitalized-)
 >
@@ -901,29 +901,46 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/IntroToIntervals ./src/014/IntroToIntervals
       ```
 
+  - 🕗 Part B)
     - A Practical Application: Stopwatch
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/StopWatch2.0 ./src/014/StopWatch2.0
       ```
-  - 🕗 Part B)
+
+  - 🕘 Part C)
     - An Intro to Classes: Rectangles
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/Rectangles ./src/015/Rectangles
       ```
 
-  - 🕘 Part C)
-    - *TBD*
 - **Homework**
 
 ### Nov 26
 
 - **Today**
   - 🕖 Part A)
+    - Assignment 3
+      - ♻️ [Apply Lab Updates](https://dgilleland.github.io/CPSC-1520/about/lab-updates/) (*Daniel, Dilan, and Paula*)
+      - Running Your Lab (by looking at [mine](./NoTrack/Assign-3-DG/))
+      - A Working Solution ([✂️ my eyes only 👀](C:\GH\_PD_\Intercession\2025\RnD\1520\AKDG-A-3\))
+    - About [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/FetchingMarkdown ./src/015/FetchingMarkdown
+      ```
+
+      - Let's add JSDoc comments for `handleResponse()` and `handleContent()`.
   - 🕗 Part B)
+    - Revisiting Rectangles
+      - Incorporating [Tailwind](https://tailwindcss.com/docs/installation/using-vite)
+      - Tailwind Tips
+        - [ ] Using `class="..."` vs. `@apply` rule
+      - Adding a `.render()` function that returns a *document fragment*
   - 🕘 Part C)
 - **Homework**
+  - *Assignment 3*
 
 ----
 
@@ -932,7 +949,18 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - Revisit [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
+      - Updating Packages: `pnpm outdated` and `pnpm update <pkg>`
+      - Building with Vite
+        - Add a `"build": "vite build"` script to your `package.json`
+        - Run `pnpm build` and observe the presence of a `dist` folder
+        - `vite.config.js`
+    - ***Practice:** Revisiting [Rectangles](./src/015/Rectangles/)* 
+      - Update the (*very*) outdated packages.
+      - Add a build script 
   - 🕗 Part B)
+    - Destructuring Objects and Arrays
+    - Spread Operator
   - 🕘 Part C)
     - **In-Class Lab 7**
 - **Homework**
@@ -942,6 +970,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - For the love of **TypeScript**...
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
