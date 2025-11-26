@@ -941,6 +941,11 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕘 Part C)
 - **Homework**
   - *Assignment 3*
+  - Visit [Refactoring UI](https://www.refactoringui.com/) and [Balsamiq](https://balsamiq.com/)
+
+    > *When you’re designing a new feature, **expect it to be hard to build**.*
+    >
+    > &ndash; page 16, "Refactoring UI.pdf"
 
 ----
 
