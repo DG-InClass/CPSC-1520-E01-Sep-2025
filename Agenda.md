@@ -923,8 +923,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
   - 🕖 Part A)
     - Assignment 3
       - ♻️ [Apply Lab Updates](https://dgilleland.github.io/CPSC-1520/about/lab-updates/) (*Daniel, Dilan, and Paula*)
-      - Running Your Lab (by looking at [mine](./NoTrack/Assign-3-DG/))
-      - A Working Solution ([✂️ my eyes only 👀](C:\GH\_PD_\Intercession\2025\RnD\1520\AKDG-A-3\))
+      - Running Your Lab (by looking at mine...)
+      - A Working Solution...
     - About [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
 
       ```ps
