@@ -937,8 +937,9 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       - Incorporating [Tailwind](https://tailwindcss.com/docs/installation/using-vite)
       - Tailwind Tips
         - [ ] Using `class="..."` vs. `@apply` rule
-      - Adding a `.render()` function that returns a *document fragment*
   - 🕘 Part C)
+    - Revisiting Rectangles
+      - Adding a `.render()` function that returns a *document fragment*
 - **Homework**
   - *Assignment 3*
   - Visit [Refactoring UI](https://www.refactoringui.com/) and [Balsamiq](https://balsamiq.com/)
@@ -961,8 +962,8 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
         - Run `pnpm build` and observe the presence of a `dist` folder
         - `vite.config.js`
     - ***Practice:** Revisiting [Rectangles](./src/015/Rectangles/)* 
-      - Update the (*very*) outdated packages.
-      - Add a build script 
+      - Update the (*very*) outdated packages using `pnpm outdated` and `pnpm update`.
+      - Add a build script, and observe what we get in our `dist` folder.
   - 🕗 Part B)
     - Destructuring Objects and Arrays
     - Spread Operator
