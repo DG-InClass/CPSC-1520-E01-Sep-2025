@@ -1,0 +1,20 @@
+/* ./css/styles.css */
+@import "tailwindcss";
+@source "./js";
+
+body {
+    /* Don't worry about the yellow squiggle */
+    @apply container pt-4 px-4;
+}
+
+h1 {
+    @apply font-bold text-3xl text-indigo-700;
+}
+
+#shapes {
+    @apply flex gap-4;
+
+    > div {
+        @apply border border-solid bg-red-700;
+    }
+}
