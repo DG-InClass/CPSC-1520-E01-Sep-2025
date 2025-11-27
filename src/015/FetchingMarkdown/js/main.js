@@ -1,17 +1,30 @@
 // It's common practice to import any 3rd-party libraries
 // at the top of your script file.
 import markdownit from 'markdown-it';
-import '@picocss/pico/css/pico.css';
+import '@picocss/pico/css/pico.green.css';
 
 console.log('Loaded main.js');
 
 // <section id="content"></section>
 
+/**
+ * handleResponse() will process a web server reponse and
+ * produce the text that the web server supplied.
+ * 
+ * @param {Response} resp The response from the web server
+ * @returns { Promise<string> } - The text returned from the web server
+ */
 const handleReponse = function(resp) {
     console.log(resp);
     return resp.text(); // instead of .json(), because we loaded a Markdown file
 }
 
+/**
+ * Processes the string content by converting it from simple
+ * markdown text into HTML (using Mardown-It). The content is
+ * then added to the page.
+ * @param {string} markdown Some markdown text
+ */
 const handleContent = function(markdown) {
     console.log(markdown);
 
@@ -39,7 +52,7 @@ let foot = document.createElement('footer');
 let div = document.createElement('div');
 let text = document.createTextNode(' 2025 - Dan Gilleland');
 
-div.innerHTML = '&copy; ';
+div.innerHTML = '&copy; '; // this is a good reason to use .innerHTML
 div.appendChild(text);
 foot.appendChild(div);
 
