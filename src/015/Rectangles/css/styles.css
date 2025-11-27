@@ -1,6 +1,5 @@
 /* ./css/styles.css */
 @import "tailwindcss";
-@source "./js";
 
 body {
     /* Don't worry about the yellow squiggle */
