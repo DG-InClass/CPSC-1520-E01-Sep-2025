@@ -955,7 +955,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
-    - Practicing the DOM API
+    - Practicing the DOM API with [BINGO](./src/016/Bingo/ReadMe.md)
     - A quick look at *Debugging in the **browser dev tools***
 
       ```ps
