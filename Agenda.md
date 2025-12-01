@@ -956,7 +956,12 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today**
   - 🕖 Part A)
     - Practicing the DOM API
-    - A quick look at *Debugging in VS Code*
+    - A quick look at *Debugging in the **browser dev tools***
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/770/Bingo ./src/016/Bingo
+      ```
+
   - 🕗 Part B + 🕘 Part C
     - **In-Class Lab 7**
       - The only code you are to work on is the `createHeroComponent()` function of the `createHeroComponent.js` file.
