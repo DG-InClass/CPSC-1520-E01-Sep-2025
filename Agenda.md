@@ -955,6 +955,23 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - Practicing the DOM API
+    - A quick look at *Debugging in VS Code*
+  - 🕗 Part B + 🕘 Part C
+    - **In-Class Lab 7**
+      - The only code you are to work on is the `createHeroComponent()` function of the `createHeroComponent.js` file.
+      - You need to know how to:
+        - Use/access properties of objects
+        - Use the DOM API to create elements and text nodes
+        - Assemble elements and text nodes using the `.appendChild()` function
+        - Manipulate properties of DOM elements (e.g.: applying CSS classes, etc.)
+- **Homework**
+
+
+### Dec 03
+
+- **Today**
+  - 🕖 Part A)
     - Revisit [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
       - Updating Packages: `pnpm outdated` and `pnpm update <pkg>`
       - Building with Vite
@@ -968,17 +985,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - Destructuring Objects and Arrays
     - Spread Operator
   - 🕘 Part C)
-    - **In-Class Lab 7**
-- **Homework**
-
-
-### Dec 03
-
-- **Today**
-  - 🕖 Part A)
-    - For the love of **TypeScript**...
-  - 🕗 Part B)
-  - 🕘 Part C)
+    - **Assignment 3:** Comments & Questions
 - **Homework**
 
 ----
@@ -988,6 +995,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - For the love of **TypeScript**...
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
