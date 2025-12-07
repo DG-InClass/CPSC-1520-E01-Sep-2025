@@ -981,7 +981,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       - Updating Packages: `pnpm outdated` and `pnpm update <pkg>`
     - ***Practice:** Revisiting [Rectangles](./src/015/Rectangles/)* 
       - Update the (*very*) outdated packages using `pnpm outdated` and `pnpm update`.
-      - Add a build script, and observe what we get in our `dist` folder.
   - 🕗 Part B)
     - Destructuring Objects and Arrays
     - Spread Operator
@@ -997,13 +996,35 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today**
   - 🕖 Part A)
     - Revisit [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
-      - Updating Packages: `pnpm outdated` and `pnpm update <pkg>`
       - Building with Vite
         - Add a `"build": "vite build"` script to your `package.json`
         - Run `pnpm build` and observe the presence of a `dist` folder
+    - ***Practice:** Revisiting [Rectangles](./src/015/Rectangles/)* 
+      - Add a build script, and observe what we get in our `dist` folder.
+      - Note what was involved in [Tailwind](https://tailwindcss.com/docs/installation/using-vite) support
         - `vite.config.js`
   - 🕗 Part B)
-    - For the love of **TypeScript**...
+    - Logic and Problem Solving
+      - The Role of Test Plans
+        - Choosing Test Data
+          - Simple/easy to compute in your head
+          - For the Happy Path
+          - For the Sad Path
+        - More [Rectangles](./src/015/Rectangles/)
+          - Preserving State (on `new Rectangle()`)
+          - Calculate Area and Perimeter
+          - Invalid Height/Width
+      - From Test Plan to Automated Tests
+        - Testing the Logic vs. Testing the DOM
+        - Run `pnpm add -D vitest`
+        - Run `"test": "vitest",`
+    - TDD
+      - Simple Algorithms/Math Problems
+        - CAD Cash Purchases (rounding)
+      - The Bingo Card Problem
+        - Generating Card Numbers
+        - DOM Rendering Card Numbers
+      - The Calendar View Problem
   - 🕘 Part C)
 - **Homework**
 
@@ -1011,6 +1032,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - For the love of **TypeScript**...
   - 🕗 Part B)
   - 🕘 Part C)
 - **Homework**
