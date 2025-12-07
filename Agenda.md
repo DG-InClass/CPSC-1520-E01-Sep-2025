@@ -995,10 +995,30 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
-    - Revisit [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
+    - Revisit [Move/Remove](./src/013/MoveRemove/)
+      - Run `pnpm vite build` and observe the `dist` folder contents
       - Building with Vite
         - Add a `"build": "vite build"` script to your `package.json`
         - Run `pnpm build` and observe the presence of a `dist` folder
+        - Run `code -n dist` in the terminal. Then run with **Live Server**. Did it work?
+      - Open the project folder in Explorer (`explorer .`)
+      - Visit [Netlify Drop](https://app.netlify.com/drop) in ***Incognito Mode***
+      - Drag-and-Drop your `dist`. You've got a 1 Hour Live Preview. 💫
+    <!-- - Revisit [Fetching Markdown](./src/015/FetchingMarkdown/ReadMe.md)
+      - Building with Vite
+        - Add a `"build": "vite build"` script to your `package.json`
+        - Run `pnpm build` and observe the presence of a `dist` folder
+        - Run `code -n dist` in the terminal. Then run with **Live Server**. Did it work?
+        - *No: Our app needs the `./content` folder*
+        - Create a `vite.config.js` file at the project root and add the following:
+
+          ```js
+          import { defineConfig } from 'vite'
+
+          export default defineConfig({
+              // ... the defaults should be fine for now
+          });
+          ``` -->
     - ***Practice:** Revisiting [Rectangles](./src/015/Rectangles/)* 
       - Add a build script, and observe what we get in our `dist` folder.
       - Note what was involved in [Tailwind](https://tailwindcss.com/docs/installation/using-vite) support
