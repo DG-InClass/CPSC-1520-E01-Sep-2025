@@ -1024,6 +1024,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
       - The Bingo Card Problem
         - Generating Card Numbers
         - DOM Rendering Card Numbers
+          - ***Discussion:** Testing the front-end (browser) is a much slower way to test. Modern options for this include [Playwright](https://playwright.dev/), the [Vitest Browser Mode](https://vitest.dev/guide/browser/why.html) (still in preview), or [Storybook Tests](https://storybook.js.org/docs/writing-tests) (for components).*
       - The Calendar View Problem
   - 🕘 Part C)
 - **Homework**
