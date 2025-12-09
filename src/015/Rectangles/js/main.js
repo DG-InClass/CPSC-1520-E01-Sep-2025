@@ -46,7 +46,7 @@ const Rectangle = class {
         // const customWidth = `w-[${this.width}px]`;
         // const customHeight = `h-[${this.height}px]`;
         // divEl.classList.add(customWidth, customHeight);
-
+        divEl.classList.add('border', 'border-green-900', 'border-5');
         // NOTE: Instead, apply the styles as plain CSS to
         //       the divEl element. 🎉
         divEl.style.width = `${this.height}px`;
