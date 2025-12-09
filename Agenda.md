@@ -994,6 +994,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 ### Dec 08
 
 - **Today**
+  - 📝 Assignment 3 Update (Brightspace Annoucement)
   - 🕖 Part A)
     - Revisit [Move/Remove](./src/013/MoveRemove/)
       - Run `pnpm vite build` and observe the `dist` folder contents
