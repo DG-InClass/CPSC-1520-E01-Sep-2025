@@ -1085,6 +1085,13 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
         - DOM Rendering Card Numbers
           - ***Discussion:** Testing the front-end (browser) is a much slower way to test. Modern options for this include [Playwright](https://playwright.dev/), the [Vitest Browser Mode](https://vitest.dev/guide/browser/why.html) (still in preview), or [Storybook Tests](https://storybook.js.org/docs/writing-tests) (for components).*
 - **Homework**
+  - Finish the [`calendarMonth.spec.js`](./src/016/UnitTesting/tests/calendarMonth.spec.js) to check for the `endDate`
+  - Apply/use our tested module in the Calendars demo:
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-E01-Sep-2025/sk/720/Calendars ./src/016/Calendars
+      ```
+
 
 ----
 
