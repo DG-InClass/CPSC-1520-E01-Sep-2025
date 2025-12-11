@@ -52,4 +52,25 @@ describe('The Cash Register', () => {
         //            \______/ \_______________________________/
         // The approach above for comparing Objects is a clean one.
     });
+
+    it.each([
+        { total: 19.99, tenderedAmount: 20, change: 0 },
+        { total: 19.98, tenderedAmount: 20, change: 0 },
+        { total: 19.97, tenderedAmount: 20, change: 0.05 },
+        { total: 19.96, tenderedAmount: 20, change: 0.05 },
+        { total: 19.94, tenderedAmount: 20, change: 0.05 },
+        { total: 19.92, tenderedAmount: 20, change: 0.10 }
+    ])
+    ('should do proper rounding of payment amounts for Canadian cash payments', ({total, tenderedAmount, change }) => {
+        // Arrange
+        const given = { total, paymentType: 'CASH', tenderedAmount };
+        const expected = { status: 'PAID', paymentType: 'CASH', 
+            total, change, tenderedAmount };
+
+        // Act
+        const actual = acceptPayment(given);
+
+        // Assert
+        expect(actual.change).toBe(expected.change);
+    });
 });
