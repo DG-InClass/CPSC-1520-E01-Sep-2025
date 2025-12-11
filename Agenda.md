@@ -1044,11 +1044,6 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
     - TDD
       - Simple Algorithms/Math Problems
         - CAD Cash Purchases (rounding)
-      - The Bingo Card Problem
-        - Generating Card Numbers
-        - DOM Rendering Card Numbers
-          - ***Discussion:** Testing the front-end (browser) is a much slower way to test. Modern options for this include [Playwright](https://playwright.dev/), the [Vitest Browser Mode](https://vitest.dev/guide/browser/why.html) (still in preview), or [Storybook Tests](https://storybook.js.org/docs/writing-tests) (for components).*
-      - The Calendar View Problem
   - 🕘 Part C)
 - **Homework**
 
@@ -1056,9 +1051,39 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
-    - For the love of **TypeScript**...
+    - Logic and Problem Solving
+      - Things I think about
+        - What data is available (inputs) vs. produced (outputs)
+          - Are there multiple inputs?!
+        - Am I producing new data from the existing data
+        - What is the *arrangement/shape/structure* of the data (inputs + outputs)
+        - Am I *transforming* the data (changing its shape)
+        - What calculations (formulas?) do I need to perform?
+        - What *rules* do I need to follow?
+        - Do I need to account for invalid/unrealiable inputs?
+      - Simple Algorithms/Math Problems
+        - (continued) CAD Cash Purchases (rounding)
+          - `Math` functions like `.floor`
   - 🕗 Part B)
+    - Logic and Problem Solving
+      - The Calendar View Problem
+        - Visualizing the Result
+        - Understanding Dates and Calendars
+          - `new Date(y,m,d)`
+          - Day of the week
+          - `.setDate()`
+        - First date of Calendar Month
+        - Last date of Calendar Month
+        - Number of Weeks in the Calendar Month
+      - A `<calendar-month>` Component
+        - Each day is a `<div><span>date</span></div>`
+        - CSS for styling
   - 🕘 Part C)
+    - Logic and Problem Solving
+      - The Bingo Card Problem
+        - Generating Card Numbers
+        - DOM Rendering Card Numbers
+          - ***Discussion:** Testing the front-end (browser) is a much slower way to test. Modern options for this include [Playwright](https://playwright.dev/), the [Vitest Browser Mode](https://vitest.dev/guide/browser/why.html) (still in preview), or [Storybook Tests](https://storybook.js.org/docs/writing-tests) (for components).*
 - **Homework**
 
 ----
@@ -1067,6 +1092,7 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 
 - **Today**
   - 🕖 Part A)
+    - For the love of **TypeScript**...
     - **In-Class Lab 8**
   - 🕗 Part B)
   - 🕘 Part C)
