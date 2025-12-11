@@ -4,9 +4,11 @@ import { acceptPayment } from '../js/cashRegister';
 
 describe('The Cash Register', () => {
     /* SUT =>  acceptPayment(payment): receipt
-        - should accept exact payment by cash
-        - should accept over payment by cash
+        - ✅ should accept exact payment by cash
+        - ✅ should accept over payment by cash
+        - ✅ should return a receipt for a valid payment
         - should do proper rounding of payment amounts for Canadian cash payments
+        - should reject insufficient payment
      */
     it.each([10, 5])
     ('should accept exact payment of %d dollars by cash', (total) => {
