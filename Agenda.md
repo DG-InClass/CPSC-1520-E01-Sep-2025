@@ -1100,8 +1100,12 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today**
   - 🕖 Part A)
     - For the love of **TypeScript**...
-    - **In-Class Lab 8**
+    - Deploy a Website
+      - Start with [a template](https://github.com/new?template_name=astro-bento-portfolio-template&template_owner=dgilleland)
+      - View it locally
+      - Deploy to Netlify (free account)
   - 🕗 Part B)
+    - **In-Class Lab 8**
   - 🕘 Part C)
 - **Homework**
 
