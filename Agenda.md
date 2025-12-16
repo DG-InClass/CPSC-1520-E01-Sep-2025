@@ -1100,12 +1100,15 @@ If you're feeling a little - or a lot - of uncertainty or hesitancy, I want you 
 - **Today**
   - 🕖 Part A)
     - For the love of **TypeScript**...
+      - Learn TypeScript at the [official site](https://www.typescriptlang.org/)
+      - Install the Total Typescript [VS Code extension](https://www.totaltypescript.com/vscode-extension)
     - Deploy a Website
       - Start with [a template](https://github.com/new?template_name=astro-bento-portfolio-template&template_owner=dgilleland)
       - View it locally
-      - Deploy to Netlify (free account)
+      - Deploy to [Netlify](https://netlify.com) (free account)
   - 🕗 Part B)
     - **In-Class Lab 8**
   - 🕘 Part C)
 - **Homework**
+  - Follow [some guidelines](https://github.com/dgilleland/astro-bento-portfolio-template/blob/master/docs/ReadMe.md) for modifying your Website hosted on Netlify.
 
